@@ -190,4 +190,8 @@
     <!-- Maintainer -->
     <string name="maintainer_title">Maintained by</string>
     <string name="maintainer_name" translatable="false">Mayuresh</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feedback_vibrate_title">In-call vibration</string>
+    <string name="incall_feedback_vibrate_summary">Vibrate to indicate call status</string>
 </resources>

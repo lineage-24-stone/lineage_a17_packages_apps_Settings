@@ -199,6 +199,14 @@
             android:title="@string/dial_pad_tones_title"
             android:order="-50"/>
 
+        <!-- In-call feedback -->
+        <SwitchPreferenceCompat
+            android:key="incall_feedback_vibrate"
+            android:title="@string/incall_feedback_vibrate_title"
+            android:summary="@string/incall_feedback_vibrate_summary"
+            android:defaultValue="false"
+            android:order="-48"/>
+
         <!-- Screen locking sounds -->
         <SwitchPreferenceCompat
             android:key="lockscreen_sounds_enabled"
