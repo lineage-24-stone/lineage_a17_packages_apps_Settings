@@ -29,6 +29,9 @@ class MaintainerPreference : PreferenceMetadata, PreferenceSummaryProvider, Pref
     override val key: String
         get() = "maintainer_info"
 
+    override val purpose: Int
+        get() = R.string.os_firmware_version_purpose
+
     override val title: Int
         get() = R.string.maintainer_title
 
